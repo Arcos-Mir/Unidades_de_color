@@ -1,0 +1,25 @@
+/*
+Hay 17 palabras clave que podemos usar:
+    aqua, black, fucshia, gray, green, lime, maroon, navy, olive, orange, purple, 
+    silver, red, teal, white, yellow
+    
+    rgb decimal (86 , 164, 254) por ejemplo
+
+    rgb hexadecimal #328BF0
+
+    rgb porcentual rgb(84%, 15%, 24%)
+
+    rgba ( r:red, g: green, b: blue, a: alpha (se quiere dar transparencia
+    u opacidad del color)
+*/
+
+.caja {
+    width: 200px;
+    height: 200px;
+    /*background: black;*/
+    /*background: rgb(215, 70, 90);*/
+    /*background: #328BF0;*/
+    /*background: rgb(84%, 15%, 24%);*/
+    background: rgba(215, 70, 90, .5); /*en la a los valores van del 0 al 1
+    y se pueden utilizar decimales*/
+}
